@@ -13,6 +13,7 @@
 		B271E5B729E8463300C5263C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B271E5B529E8463300C5263C /* Main.storyboard */; };
 		B271E5B929E8463400C5263C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B271E5B829E8463400C5263C /* Assets.xcassets */; };
 		B271E5BC29E8463400C5263C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B271E5BA29E8463400C5263C /* LaunchScreen.storyboard */; };
+		B271E5C429E8479300C5263C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271E5C329E8479300C5263C /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B271E5B829E8463400C5263C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B271E5BB29E8463400C5263C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B271E5BD29E8463400C5263C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B271E5C329E8479300C5263C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B271E5AF29E8463300C5263C /* AppDelegate.swift */,
 				B271E5B129E8463300C5263C /* SceneDelegate.swift */,
 				B271E5B329E8463300C5263C /* ViewController.swift */,
+				B271E5C329E8479300C5263C /* GameViewController.swift */,
 				B271E5B529E8463300C5263C /* Main.storyboard */,
 				B271E5B829E8463400C5263C /* Assets.xcassets */,
 				B271E5BA29E8463400C5263C /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B271E5C429E8479300C5263C /* GameViewController.swift in Sources */,
 				B271E5B429E8463300C5263C /* ViewController.swift in Sources */,
 				B271E5B029E8463300C5263C /* AppDelegate.swift in Sources */,
 				B271E5B229E8463300C5263C /* SceneDelegate.swift in Sources */,
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9H9VN73YZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CatchTheFamilyGuys/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D9H9VN73YZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CatchTheFamilyGuys/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
